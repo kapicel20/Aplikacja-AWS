@@ -1,0 +1,7 @@
+[
+	
+	{"path":"/","action":"createform"},	
+	{"path":"/success","action":"success"},
+	{"path":"/galeria","action":"galeria"},
+	{"path":"/mirror","action":"mirror"}
+]

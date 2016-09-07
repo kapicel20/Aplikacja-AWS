@@ -1,0 +1,12 @@
+{
+  "expiration": { "day": 1 },
+  "conditions": [
+    [ "starts-with", "$key", "tracz.lukasz/" ],
+    { "bucket": "tracz-lab4" },
+    { "x-amz-meta-name": "tracz lukasz" },
+    { "x-amz-meta-computer": "http://ec2-52-33-111-45.us-west-2.compute.amazonaws.com:8082" },
+    { "acl": "private" },
+    { "success_action_redirect": "http://ec2-52-33-111-45.us-west-2.compute.amazonaws.com:8082/success" },
+    [ "content-length-range", 0, 1048576 ]
+  ]
+}
